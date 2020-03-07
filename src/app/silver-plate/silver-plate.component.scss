@@ -1,0 +1,24 @@
+.silver-plate {
+    margin: 0 200px;
+    padding: 1rem;
+    width: 245px;
+    height: 110px;
+    background: linear-gradient(135deg, #eeeeee, #949496);
+    border-radius: 10px;
+    border: solid #888888 1px;
+    transition: box-shadow 100ms, font-size 100ms;
+    box-shadow: 5px 5px 10px black;
+
+    &:hover {
+        box-shadow: 1px 1px 2px black;
+    }
+}
+
+.curved {
+    font-size: 1.3rem;
+    font-family: "Helvetica U";
+    /*x, y, blur, color */
+    text-shadow: 1px 1px #eeeeee;
+    color: #000000;
+    transition: font-size 100ms;
+}

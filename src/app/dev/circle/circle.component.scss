@@ -1,0 +1,8 @@
+$radius: 200px;
+
+.circle {
+    width: $radius;
+    height: $radius;
+    border-radius: 50%;
+    background: radial-gradient(circle at 50px 50px, #ffffff, #d8d8d8);
+}
