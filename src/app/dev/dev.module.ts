@@ -3,17 +3,19 @@ import {CommonModule} from '@angular/common';
 
 import {DevRoutingModule} from './dev-routing.module';
 import {CircleModule} from './circle/circle.module';
+import { SilverHeadersComponent } from './silver-headers/silver-headers.component';
 
 
 @NgModule({
-    declarations: [],
+    declarations: [SilverHeadersComponent],
     imports: [
         CommonModule,
         DevRoutingModule,
         CircleModule
     ],
     exports: [
-        CircleModule
+        CircleModule,
+        SilverHeadersComponent
     ]
 })
 export class DevModule {
